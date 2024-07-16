@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.55;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 13vw;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+
+.hero {
+    height: calc(100% - 100px);
+    /* calc will calculate & provides output*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.sepetetion {
+    height: 7px;
+    background-color: rgb(81, 80, 80);
+    /* position: relative;
+    z-index: 20; */
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 6px;
+    color: white;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.btn_red {
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    padding: 3px 8px;
+    height: 30px;
+    width: 70px;
+}
+
+.btn_red_sn {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: bisque;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+
+.secimg {
+    top: 7px;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.secimg_ {
+    top: 7px;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.secimg img {
+    /* width: 30vw; */
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg_ img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg_ video {
+    position: absolute;
+    top: 100px;
+    right: 110px; 
+    width: 330px;
+}
+
+.secimg video {
+    position: absolute;
+    top: 110px;
+    right: 70px;
+    width: 410px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.img {
+    padding-bottom: 15vh;
+    width: 555px;
+    position: relative;
+}
+
+.img_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 1250px;
+    left: 320px;
+    height: 80px;
+    width: 280px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.bookimg_ {
+    padding: 5px 5px 5px 5px;
+    width: 50px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.dow_img {
+    padding: 5px 5px 5px 5px;
+    width: 40px;
+    height: 40px;
+}
+
+
+#p1 {
+    font-size: 17px;
+    padding-right: 20px;
+}
+
+#p2 {
+    font-size: 13px;
+    color: rgb(71, 71, 232);
+    padding-right: 20px;
+} /**/
+
+.feq>h2 {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+.feq_box:hover {
+    background-color: gray;
+}
+
+.feq_box {
+    transition-duration: 0.3s;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(59, 58, 58);
+    padding: 24px;
+    max-width: 60vw;
+    margin: auto;
+    margin-bottom: 1.5vw;
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+}
+
+.input_ {
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: bisque;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+.try {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3vh;
+    gap: 2vh;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .Question {
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: rgba(247, 241, 241, 0.655);
+}
+
+.footer_items {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.space {
+    margin-bottom: 50px;
+}
+
+ 
+@media screen and (max-width: 1000px) {
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secimg img {
+        /* width: 30vw; */
+        width: 390px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .secimg video {
+        position: absolute;
+        top: 94px;
+        right: 57px;
+        width: 280px;
+    }
+
+    .secimg_ img {
+        width: 490px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .secimg_ video {
+        position: absolute;
+        top: 100px;
+        right: 90px;
+        width: 290px;
+    }
+
+    .hero_buttons {
+        flex-wrap: wrap;
+    }
+
+    .Aline{
+        text-align: center;
+    }
+    
+    .btn {
+        margin-right: 1px ;
+        margin-left:2px
+    }
+
+    footer {
+        gap: 45px;
+    }
+
+}
